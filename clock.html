@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <!--CSSファイルの読み込み-->
+    <link id ="PageStyleSheet" rel="stylesheet" href="common/css/clock_defau.css">
+    
+</head>
+
+<body>
+    <!-------画面全体------->
+    <div id="all">
+        <!-------時計を囲む------->
+        <div class="container">
+
+            <!-------画面左側------->
+            <div id="arrayColor1" class = "arrayColor">
+                <!--この中にcanvas作成-->
+            </div>
+            
+            <!-------時計全体------->    
+            <div id="clock">
+                <p class="clock-date"></p>
+                
+                <p class="clock-time"></p>
+
+                <p id="text">Click the color you like ♡</p>
+            </div>  
+
+            <!-------画面右側------->
+            <div id="arrayColor2" class = "arrayColor">
+                <!--この中にcanvas作成-->
+            </div>
+            
+        </div>
+        
+        <div id='change' class="change">
+
+            <!-------ボタン群------->
+            <p><button id="rainbow" onclick="rainbow()">rainbow</button></p>
+            <!--ここに背景変更のボタン追加-->
+            
+        </div>
+    </div>
+
+<!--JavaScriptファイルファイルの読み込-->
+<script src="common/js/clock2.js">
+
+</script>
+
+</body>
+<footer>
+    <p><a href="user_manual.html">User's manual</a></p>
+</footer>
+</html>
