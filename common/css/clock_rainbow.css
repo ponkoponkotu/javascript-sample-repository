@@ -1,0 +1,118 @@
+/*GoogleFonts 読み込み*/
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+/*文字サイズ調整*/
+@media screen and (max-width: 500px){
+    .clock-date {
+        font-size: 5vw;
+    }
+    .clock-time {
+        font-size: 20vw;
+    }
+}
+
+.all {
+    user-select: none;
+}
+
+/*全体を書こうコンテナー*/
+.container {
+    width: 100%;
+    height: 600px;
+    background-color: #15151e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*時計の共通スタイル*/
+#clock {
+    font-family: 'Share Tech Mono',monospace;
+    color: #daf6ff;
+    text-shadow: 0 0 20 #0aafe6;
+    line-height: 1.2;
+    text-align: center;
+    float: left;
+}
+
+/*日付のスタイル*/
+.clock-date {
+    font-size: 35px;
+}
+/*時間のスタイル*/
+.clock-time {
+    font-size: 120px;
+}
+
+/*色変更ボタンのスタイル*/
+#arrayColor1 {
+    width: 45px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+#arrayColor2 {
+    width: 45px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+/*円を描くcanvasのスタイル*/
+canvas {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/*背景チェンジボタンのスタイル*/
+#change {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+
+/*時計の色変化のスタイル*/
+#clock.pink{
+    color: pink;
+}
+#clock.hotpink{
+    color: hotpink;
+}
+#clock.red{
+    color: red;
+}
+#clock.orange{
+    color: orange;
+}
+#clock.yellow{
+    color: yellow;
+}
+#clock.limegreen{
+    color: limegreen;
+}
+#clock.turquoise{
+    color: turquoise;
+}
+#clock.blue{
+    color: blue;
+}
+#clock.navy{
+    color: navy;
+}
+#clock.purple{
+    color: purple;
+}

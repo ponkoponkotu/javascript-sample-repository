@@ -1,0 +1,57 @@
+/*GoogleFonts 読み込み*/
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+/*全体を書こうコンテナー*/
+
+.all {
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/bubbles-230014_1920.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*文字サイズ調整*/
+@media screen and (max-width: 500px){
+    .clock-date {
+        font-size: 5vw;
+    }
+    .clock-time {
+        font-size: 20vw;
+    }
+}
+
+/*時計の共通スタイル*/
+#clock {
+    font-family: 'Share Tech Mono',monospace;
+    color: #ffffff;
+    text-shadow: 5px 5px 20px #013242;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*日付のスタイル*/
+.clock-date {
+    font-size: 35px;
+}
+/*時計のスタイル*/
+.clock-time {
+    font-size: 120px;
+}
+
+#change {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+#text {
+    visibility: hidden;
+}
