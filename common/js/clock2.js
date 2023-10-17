@@ -4,7 +4,7 @@ const pageSS = document.getElementById("PageStyleSheet");
 //ボタン群のid
 const change = document.getElementById('change');
 //ボタン群
-const arrayButtons = ['defau','water','forest','wood','sky','space','moon'];
+const arrayButtons = ['defau','water','forest','wood','sky','space','veanus'];
 
 //左右のカラーボタン(canvas)
 const arrayColor1 = document.getElementById('arrayColor1');
